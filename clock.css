@@ -1,0 +1,59 @@
+html {
+   overflow:hidden;
+  }
+
+  body {
+    background-color: rgb(14, 14, 14);
+  }
+   h1 {
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 10em;
+    color:white;
+  }
+  h1 #clock {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: lowercase;
+  }
+  
+  #IssaImage {
+    height:100%;
+    width:100%;
+    z-index: -1000;
+    opacity: 0.4;
+   
+    vertical-align: middle;
+  }
+  p {
+    font-family: 'Oswald', sans-serif;
+    font-size:2em;
+    color:white;
+    position: absolute;
+    padding-top :10px;
+    padding-bottom: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+  }
+  
+  p:before { content: '"'; }
+  p:after { content: '"'; }
+
+  #partyTimeButton {
+    position: absolute;
+    padding:10px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    color:white;
+    background-color: black;
+    border-color: black;
+    margin: 5px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+  }
+  
