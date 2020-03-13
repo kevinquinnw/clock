@@ -1,6 +1,4 @@
 # clock
-
-# Description 
 Made a digital clock with different images, expressions, and more. 
 
 # Instructions 
